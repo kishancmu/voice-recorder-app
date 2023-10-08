@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import WaveSurfer from "wavesurfer.js";
+import "./Waveform.css";
 
 interface WaveformProps {
   audio: string;
@@ -38,9 +39,7 @@ const Waveform: React.FC<WaveformProps> = (props: WaveformProps) => {
     };
   }, [audio]);
 
-  return (
-    <div ref={containerRef} style={{ width: "100%", height: "auto" }}></div>
-  );
+  return <div ref={containerRef} className="waveformContainer"></div>;
 };
 
 export default Waveform;
