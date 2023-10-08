@@ -11,7 +11,12 @@ const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
   const { buttonIcon, label, onClick, isDisabled } = props;
   return (
     <div className="buttonContainer">
-      <button className="button" disabled={isDisabled} onClick={onClick}>
+      <button
+        type="button"
+        className="button"
+        disabled={isDisabled}
+        onClick={onClick}
+      >
         {buttonIcon}
       </button>
       <span>{label}</span>
