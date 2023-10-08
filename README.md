@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App] in TypeScript. The app is 
 
 Live Demo Link:- https://kishancmu.github.io/voice-recorder-app/
 
+
+
 ## Tech Stack
 
 1. React
@@ -21,6 +23,8 @@ Live Demo Link:- https://kishancmu.github.io/voice-recorder-app/
 1. Wavesurfer:- It is an open-source audio visualization library for creating interactive, customizable waveforms
 
 2. react-icons:- It is a icons library designed for react app
+   
+   Please note:- React icons library seems to have some issue in mobile browsers
 
 ## Steps to Run the App/Component
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Button.css";
-import { BsPlayFill } from "react-icons/bs";
 interface ButtonProps {
   label: string;
   onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
@@ -13,7 +12,7 @@ const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
   return (
     <div className="buttonContainer">
       <button className="button" disabled={isDisabled} onClick={onClick}>
-        <BsPlayFill />
+        {buttonIcon}
       </button>
       <span>{label}</span>
     </div>
