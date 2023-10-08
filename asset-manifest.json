@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/voice-recorder-app/static/css/main.448500bf.css",
+    "main.css": "/voice-recorder-app/static/css/main.e48f82b9.css",
     "main.js": "/voice-recorder-app/static/js/main.526e650d.js",
     "static/media/waves.gif": "/voice-recorder-app/static/media/waves.48299a4e5713f4ad114d.gif",
     "index.html": "/voice-recorder-app/index.html",
-    "main.448500bf.css.map": "/voice-recorder-app/static/css/main.448500bf.css.map",
+    "main.e48f82b9.css.map": "/voice-recorder-app/static/css/main.e48f82b9.css.map",
     "main.526e650d.js.map": "/voice-recorder-app/static/js/main.526e650d.js.map"
   },
   "entrypoints": [
-    "static/css/main.448500bf.css",
+    "static/css/main.e48f82b9.css",
     "static/js/main.526e650d.js"
   ]
 }
