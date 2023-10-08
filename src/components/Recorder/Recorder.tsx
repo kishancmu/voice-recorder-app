@@ -51,22 +51,27 @@ const Recorder = () => {
     };
   }, [timer]);
 
-  if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-    navigator.mediaDevices
-      .getUserMedia({
-        audio: true,
-      })
-      .then((stream: MediaStream) => {
-        setStream(stream);
-      })
-      .catch((err) => {
-        setErrorMessage({ error: true, msg: "Please allow microphone access" });
-        setIsRecording(false);
-        setChunks([]);
-      });
-  } else {
-    setErrorMessage({ error: true, msg: "Oops! we ran into issues" });
-  }
+  useEffect(() => {
+    if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+      navigator.mediaDevices
+        .getUserMedia({
+          audio: true,
+        })
+        .then((stream: MediaStream) => {
+          setStream(stream);
+        })
+        .catch((err) => {
+          setErrorMessage({
+            error: true,
+            msg: "Please allow microphone access",
+          });
+          setIsRecording(false);
+          setChunks([]);
+        });
+    } else {
+      setErrorMessage({ error: true, msg: "Oops! we ran into issues" });
+    }
+  }, []);
 
   const startRecording = () => {
     setIsRecording(true);
