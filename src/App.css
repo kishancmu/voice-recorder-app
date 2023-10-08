@@ -1,0 +1,16 @@
+.App {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: 40%;
+  }
+}
