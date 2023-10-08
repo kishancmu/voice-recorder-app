@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App] in TypeScript. The app is designed for mobile, tablet and desktop view.
 
+Live Demo Link:- https://kishancmu.github.io/voice-recorder-app/
+
 ## Tech Stack
 
 1. React
@@ -20,15 +22,11 @@ This project was bootstrapped with [Create React App] in TypeScript. The app is 
 
 2. react-icons:- It is a icons library designed for react app
 
-## Available Scripts
+## Steps to Run the App/Component
 
-In the project directory, you can run:
+In the project directory,
 
-### `npm start`
+1. Install all dependenceis by running `npm install` in the terminal
+2. Now run `npm start` in the terminal to start the component 
+3. Open [http://localhost:3000] to view it in the browser
 
-Runs the component in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
