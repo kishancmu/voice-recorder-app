@@ -4,11 +4,10 @@ interface ButtonProps {
   label: string;
   onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
   isDisabled: boolean;
-  buttonIcon: React.ReactElement;
 }
 
 const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
-  const { buttonIcon, label, onClick, isDisabled } = props;
+  const { label, onClick, isDisabled } = props;
   return (
     <div className="buttonContainer">
       <button
@@ -17,9 +16,9 @@ const Button: React.FC<ButtonProps> = (props: ButtonProps) => {
         disabled={isDisabled}
         onClick={onClick}
       >
-        {buttonIcon}
+        {label}
       </button>
-      <span>{label}</span>
+      {/* <span>{label}</span> */}
     </div>
   );
 };

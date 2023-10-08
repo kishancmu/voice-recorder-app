@@ -171,27 +171,23 @@ const Recorder = () => {
       <div className="buttons-container">
         <Button
           isDisabled={isRecording || isRecorded || errorMessage.error}
-          buttonIcon={<BsFillMicFill />}
           onClick={startRecording}
           label="Record"
         />
         <Button
           isDisabled={!isRecording}
-          buttonIcon={<BsFillStopFill />}
           onClick={stopRecording}
           label="Stop"
         />
         <Button
-          buttonIcon={isPlaying ? <BsFillPauseFill /> : <BsPlayFill />}
           isDisabled={!isRecorded}
           onClick={handlePlayButtonClick}
           label={isPlaying ? "Pause" : "Play"}
         />
         <Button
-          buttonIcon={<BsArrowRepeat />}
           isDisabled={!isRecorded}
           onClick={handleRetryButtonClick}
-          label="Re-record"
+          label="Retry"
         />
       </div>
     </div>
