@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import Button from "../Button/Button";
+import wavesImage from "../../assets/waves.gif";
 import {
   BsFillStopFill,
   BsPlayFill,
@@ -141,7 +142,7 @@ const Recorder = () => {
               !isRecorded &&
               isRecording && (
                 <div className="recordingContainer">
-                  <img src="waves.gif" alt="waves" />
+                  <img src={wavesImage} alt="waves" />
                   <p className="text recording">Recording</p>
                 </div>
               )}
