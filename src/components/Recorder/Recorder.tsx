@@ -105,6 +105,7 @@ const Recorder = () => {
   };
 
   const handlePlayButtonClick = () => {
+    waveSurferRef.current.setVolume(10);
     waveSurferRef.current.playPause();
     setIsPlaying(!isPlaying);
   };
