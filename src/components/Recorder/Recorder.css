@@ -28,7 +28,7 @@
   height: 50%;
   overflow-y: auto;
   color: #fff;
-  background-color: #ffb74d;
+  background-color: #ffa726;
   padding: 2rem 1rem 1rem 1rem;
   border-radius: 0.5rem;
 }
@@ -55,7 +55,7 @@
   padding: 1rem;
   margin-top: 2rem;
   overflow-y: auto;
-  background-color: #ba68c8;
+  background-color:#ab47bc;
 }
 
 .recorder-container .flexGrowContainer .graph .messagesContainer {
