@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/voice-recorder-app/static/css/main.cf1076eb.css",
+    "main.js": "/voice-recorder-app/static/js/main.b99e527d.js",
+    "index.html": "/voice-recorder-app/index.html",
+    "main.cf1076eb.css.map": "/voice-recorder-app/static/css/main.cf1076eb.css.map",
+    "main.b99e527d.js.map": "/voice-recorder-app/static/js/main.b99e527d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf1076eb.css",
+    "static/js/main.b99e527d.js"
+  ]
+}
